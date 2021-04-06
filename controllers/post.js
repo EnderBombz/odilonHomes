@@ -9,6 +9,8 @@ exports.homeSpawn = async(req, res) => {
     console.log(playerName, HomeSpawn);
 
     firebase.default.database().ref().child("homes").child(playerName).set({
+
         HomeSpawn: HomeSpawn,
+
     })
 }
