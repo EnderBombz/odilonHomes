@@ -18,7 +18,6 @@ app.use(function(req, res, next) {
 })
 
 app.use(cors({
-    origin: "steam://rungameid/892970",
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }));
 
